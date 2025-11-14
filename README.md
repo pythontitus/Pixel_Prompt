@@ -1,2 +1,2 @@
-# PixelPrompt-AI-Based-Text-to-Image-Generation-using-Stable-Diffusion
-In the modern world, there is a rising demand for tools that can convert textual imagination into visual content. Traditional image creation requires skilled artists or designers, making it time-consuming and inaccessible for many.
+# PixelPrompt
+Text-to-image generation project (Pixel Prompt).From this project we can generate images based on textual prompts.  We are using pre-trained stable diffusion model v-1.5 in this project.
