@@ -1,0 +1,9 @@
+torch
+torchvision
+diffusers[torch]
+transformers
+accelerate
+safetensors
+huggingface_hub
+gradio
+Pillow
