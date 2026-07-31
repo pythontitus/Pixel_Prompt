@@ -148,7 +148,7 @@ with col1:
     height = st.slider("Height (px)", 256, 1024, value=512, step=64)
     steps = st.slider("Inference Steps", 5, 50, value=25)
     guidance = st.slider("Guidance Scale (CFG)", 1.0, 20.0, value=7.5, step=0.1)
-    generate_clicked = st.button("Generate ✨")
+    generate_clicked = st.button("✨")
     st.markdown("</div>", unsafe_allow_html=True)
 
 with col2:
