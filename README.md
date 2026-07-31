@@ -73,34 +73,15 @@ set either of those up if you get there.
    ```toml
    HF_TOKEN = "hf_your_real_token_here"
    ```
-5. Deploy, and watch the build logs closely -- this is where you'll see if
-   it hits the memory/size limits described above.
 
-## 📦 Push this project to GitHub
-
-```bash
-cd pixel-prompt-streamlit-local
-git init
-git add .
-git commit -m "Initial commit: Pixel Prompt (Streamlit, local SD model)"
-git branch -M main
-git remote add origin https://github.com/<your-username>/pixel-prompt.git
-git push -u origin main
-```
-
-Before pushing, double-check no real token snuck into any file:
-```bash
-grep -r "hf_" . --include="*.py" --include="*.toml" | grep -v "hf_your_token_here"
-```
-This should print nothing.
 
 ## 🗂️ Project structure
 
 ```
 pixel-prompt-streamlit-local/
-├── app.py                          # Main Streamlit app (local SD model)
-├── requirements.txt                 # Deps, pinned to CPU-only torch
-├── .gitignore                       # Excludes secrets.toml, venv, outputs/
+├── app.py                          
+├── requirements.txt                 
+├── .gitignore                      
 └── .streamlit/
-    └── secrets.toml.example         # Template -- copy to secrets.toml locally
+    └── secrets.toml.example
 ```
